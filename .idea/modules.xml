@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/glidedemo1/glidedemo1.iml" filepath="$PROJECT_DIR$/glidedemo1/glidedemo1.iml" />
       <module fileurl="file://$PROJECT_DIR$/retrofitdemo1/retrofitdemo1.iml" filepath="$PROJECT_DIR$/retrofitdemo1/retrofitdemo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rxjava1demo1/rxjava1demo1.iml" filepath="$PROJECT_DIR$/rxjava1demo1/rxjava1demo1.iml" />
     </modules>
   </component>
 </project>

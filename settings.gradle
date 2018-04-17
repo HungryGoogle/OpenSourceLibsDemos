@@ -1,1 +1,1 @@
-include ':app', ':glidedemo1', ':retrofitdemo1'
+include ':app', ':glidedemo1', ':retrofitdemo1', ':rxjava1demo1'
