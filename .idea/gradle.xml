@@ -9,10 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/glidedemo1" />
-            <option value="$PROJECT_DIR$/retrofitdemo1" />
-            <option value="$PROJECT_DIR$/rxandroid2demo1" />
-            <option value="$PROJECT_DIR$/rxjava1demo1" />
+            <option value="$PROJECT_DIR$/eventbusdemo1" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
