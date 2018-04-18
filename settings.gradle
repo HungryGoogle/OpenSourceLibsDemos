@@ -1,4 +1,4 @@
-include ':app'
+include ':app', ':zxing'
 //include ':glidedemo1'
 //include ':retrofitdemo1'
 //include ':rxjava1demo1'

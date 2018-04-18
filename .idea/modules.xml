@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/OpenSourceLibsTest.iml" filepath="$PROJECT_DIR$/OpenSourceLibsTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/eventbusdemo1/eventbusdemo1.iml" filepath="$PROJECT_DIR$/eventbusdemo1/eventbusdemo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zxing/zxing.iml" filepath="$PROJECT_DIR$/zxing/zxing.iml" />
     </modules>
   </component>
 </project>
