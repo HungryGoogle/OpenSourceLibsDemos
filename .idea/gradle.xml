@@ -8,10 +8,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Java8LamdaDemo1" />
             <option value="$PROJECT_DIR$/ThradPoolLib" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/eventbusdemo1" />
-            <option value="$PROJECT_DIR$/zxing" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
