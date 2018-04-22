@@ -1,6 +1,6 @@
 include ':app', ':Java8LamdaDemo1'
 //include ':zxing'
-include ':ThradPoolLib'
+include ':ThreadPoolLib'
 //include ':glidedemo1'
 //include ':retrofitdemo1'
 //include ':rxjava1demo1'

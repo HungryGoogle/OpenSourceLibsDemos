@@ -1,11 +1,11 @@
-package deepin.com.thradpoollib;
+package deepin.com.threadpoollib;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class FixedThreadPool {
+public class SingleThreadPool {
     public static void main(String[] args) {
-        ExecutorService cachedThreadPool = Executors.newFixedThreadPool(3);
+        ExecutorService cachedThreadPool = Executors.newSingleThreadExecutor();
         for (int i = 0; i < 10; i++) {
             final int index = i;
 

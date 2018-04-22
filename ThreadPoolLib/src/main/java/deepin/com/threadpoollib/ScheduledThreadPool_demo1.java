@@ -1,4 +1,4 @@
-package deepin.com.thradpoollib;
+package deepin.com.threadpoollib;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

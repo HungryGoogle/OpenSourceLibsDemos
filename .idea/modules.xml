@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Java8LamdaDemo1/Java8LamdaDemo1.iml" filepath="$PROJECT_DIR$/Java8LamdaDemo1/Java8LamdaDemo1.iml" />
       <module fileurl="file://$PROJECT_DIR$/OpenSourceLibsTest.iml" filepath="$PROJECT_DIR$/OpenSourceLibsTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ThradPoolLib/ThradPoolLib.iml" filepath="$PROJECT_DIR$/ThradPoolLib/ThradPoolLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThreadPoolLib/ThradPoolLib.iml" filepath="$PROJECT_DIR$/ThreadPoolLib/ThradPoolLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
