@@ -9,7 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/butterknifedemo1" />
+            <option value="$PROJECT_DIR$/greendaodemo1" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

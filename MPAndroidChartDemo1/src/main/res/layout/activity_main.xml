@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+   <Button
+       android:id="@+id/id_test1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="点击按钮1"/>
+
+    <TextView
+        android:id="@+id/tv_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="还没有被点击"/>
+
+    <!--LineChart, BarChart, ScatterChart, CandleStickChart, PieChart, BubbleChart or RadarChart-->
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/seekBar1" />
+
+</LinearLayout>
