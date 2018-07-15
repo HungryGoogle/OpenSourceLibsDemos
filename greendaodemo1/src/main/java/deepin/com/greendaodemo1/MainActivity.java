@@ -28,7 +28,7 @@ public class MainActivity extends Activity {
         ButterKnife.bind(this);
 
         DaoMaster.DevOpenHelper devOpenHelper = new DaoMaster.DevOpenHelper(getApplicationContext(), "my-db", null);
-        DaoMaster daoMaster = new DaoMaster(devOpenHelper.getWritableDatabase());
+        DaoMaster daoMaster = new DaoMaster(devOpenHelper.getEncryptedReadableDb("123456"));
         DaoSession daoSession = daoMaster.newSession();
         userDao = daoSession.getUserDao();
     }
@@ -41,14 +41,11 @@ public class MainActivity extends Activity {
         user.setSex(true);
         user.setUsername("zhangsan");
         long retu = userDao.insert(user);
-        Toast.makeText(this, String.valueOf(retu), Toast.LENGTH_LONG).show();
+        Log.i("leeTest------>", "insert id = " + retu);
     }
     @OnClick(R.id.id_deleteData)
     public void onClickid_deleteData(View v) {
-        User findUser = userDao.queryBuilder().where(UserDao.Properties.Id.eq("1")).build().unique();
-        if(findUser != null){
-            userDao.deleteByKey(findUser.getId());
-        }
+         userDao.deleteByKey((long) 1);
     }
 
     @OnClick(R.id.id_deleteAll)
@@ -61,7 +58,7 @@ public class MainActivity extends Activity {
         User findUser = userDao.queryBuilder().where(UserDao.Properties.Id.eq("1")).build().unique();
         if(findUser != null){
             findUser.setUsername("lisi");
-            findUser.setId((long) 100);
+//            findUser.setId((long) 100);
             userDao.update(findUser);
         }
     }
